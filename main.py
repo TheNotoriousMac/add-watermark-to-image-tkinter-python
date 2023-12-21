@@ -34,8 +34,6 @@ image_label.config(padx=20, pady=20)
 image_filepath = Entry(width=80)
 image_filepath.grid(column=0, row=2)
 
-
-
 #Add Watermark Label to tell user to enter text needed for watermark
 watermark_label = Label(text="Enter watermark text below:", font=("Arial", 16, "normal"))
 watermark_label.grid(column=0, row=3)
